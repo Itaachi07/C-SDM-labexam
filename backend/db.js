@@ -4,7 +4,7 @@ const pool = mysql.createPool({
     host: 'empdb',
 
     user:'root',
-    password:'root',
+    password:'manager',
     database:'EmpDB',
     port:'3306',
     waitForConnections:true,

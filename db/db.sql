@@ -1,9 +1,9 @@
 
 create table Employee (
-    emp_id int , 
-    emp_Name varchar(50), 
-    emp_Address varchar(50) ,
-    emp_Email varchar(50),
-    emp_MobileNo varchar(50),
-    emp_DOB DATE, 
-    emp_JoiningDate DATE)
+    emp_id int primary key , 
+    emp_name varchar(30), 
+    emp_address varchar(50) ,
+    emp_email varchar(50),
+    emp_mobileno varchar(50),
+    emp_dob DATE(20), 
+    emp_joiningdate DATE(20))
